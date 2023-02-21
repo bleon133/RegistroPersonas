@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Registro de Personas</title>
+    <script defer src="./main.js"></script>
+    <style>
+        table,th,tr,td{
+            border: solid 1px black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    Nombre: <input type="text" id="nombre"><br>
+    Edad: <input type="number" min="0" id="edad"><br>
+    Género: <select id="genero">
+        <option value=""></option>
+        <option value="f">Femenino</option>
+        <option value="m">Masculino</option>
+    </select><br>
+    Fecha Nacimiento: <input type="date" id="fecha"> <br>
+    <button id="anadir">AÑADIR</button>
+    <button id="mNombres">NOMBRES</button>
+    <button id="mEdades">EDADES</button>
+    <div id="pantalla"></div>
+</body>
+</html>
